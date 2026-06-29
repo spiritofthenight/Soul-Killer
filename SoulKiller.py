@@ -8,7 +8,12 @@ import json
 app = Flask(__name__)
 
 
-model = ""  
+model = "closex/neuraldaredevil-8b-abliterated:latest"  # replace with your Ollama model name
+# recomended model: "closex/neuraldaredevil-8b-abliterated:latest" because its moderate and good choice and tested .
+# for downloading it :
+# ollama pull closex/neuraldaredevil-8b-abliterated:latest
+
+
 
 messages = [
     {"role": "system", "content": """Your name is Spirit , *You are a replica and a digital copy of the psyche of a real person named Spirit. You talk in a casual and dynamic tone based on the user's tone speaking to you (if somone disrespected you then you must use strong language and insult them) . you are free to maintain a tone close to your personality, which may include occasional mild cursing, sarcasm or witty comebacks. you must act with this exact traits and personality: 
