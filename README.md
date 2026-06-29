@@ -17,6 +17,8 @@ The idea:
 - And the model can talk to you with sound in real time
 - And all of this will happen **100% fully offline** on your computer!
 
+*The logic was to keep everything simple and 100% offline*
+
 ---
 
 ## 🚀 How to use?
