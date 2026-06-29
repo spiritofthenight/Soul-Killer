@@ -170,7 +170,7 @@ HTML_TEMPLATE = """
 <body>
 
     <font face="Yu Gothic">
-    <h2>Chat with Your Model...</h2>
+    <h2>Chat with Yourself...</h2>
     </font>
     <form method="POST" action="/">
         <center>
