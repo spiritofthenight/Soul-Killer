@@ -5,7 +5,7 @@
   </b></p>
 
 ## Project Soul Killer will let you TALK directly to yourself !
-<p>the logic is :<br>
+<p>the idea is :<br>
 you will answer 100 question inside SoulKiller.py with 100% honesty<br>
 then the app and model can ~100% act just like you !<br>
 then you can interact with the model with a minimal yet clean UI<br>
