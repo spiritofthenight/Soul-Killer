@@ -54,7 +54,7 @@ python SoulKiller.py
 
 - A powerful GPU with more than 8GB VRAM
 - 12 GB+ RAM
-- Windows 11
+- Windows 11 (Tested only on Windows)
 - Python 3.12
 
 ---
