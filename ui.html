@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Text-to-Voice Chat</title>
+    <style>
+        body{
+            background-color:#1d1d1d;
+            color:#dcdcdc;
+            textarea {
+                background-color:#48001f;
+                color:#dcdcdc;
+                width: 80%;
+                margin-left: 0%;
+                margin-right: 0%;
+            }
+            input{
+                background-color:#190058;
+                color:#FFFFFF;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <font face="Yu Gothic">
+    <h2>Chat with Your Model...</h2>
+    </font>
+    <form method="POST" action="/">
+        <center>
+        <label for="voice">Select Voice:</label><br>
+        <select name="voice">
+            {% for v in voices %}
+                <option value="{{ v.id }}" {% if v.id == selected_voice %}selected{% endif %}>
+                    {{ v.name }} ({{ v.gender }}, {{ v.language }})
+                </option>
+            {% endfor %}
+        </select><br><br>
+        </center>
+
+        <hr>
+
+        <h3>Conversation History</h3>
+        <font face="calibri">
+        {% for msg in history %}
+            {% if msg.role == 'user' %}
+                <p><strong><b>You: </b></strong> {{ msg.content }}</p>
+            {% elif msg.role == 'assistant' %}
+                <p><strong><b>Response: </b></strong> {{ msg.content }}</p>
+            {% endif %}
+        {% endfor %}
+        </font>
+        <hr/>
+
+        <ul>
+            <center><label for="user_input">Your Message:</label></center><br>
+            <center>
+                <textarea name="user_input" rows="4" cols="120" autocomplete="off"></textarea><br><br>
+            </center>
+        </ul>
+
+        <center><input type="submit" value="Send"></center><br>
+    </form>
+
+    <form method="POST" action="/speak">
+        <input type="hidden" name="voice" value="{{ selected_voice }}">
+        <center><input type="submit" value="Speak last response"></center>
+    </form>
+
+</body>
+</html>
