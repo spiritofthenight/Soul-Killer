@@ -28,6 +28,7 @@ First install Ollama client app version 0.11.3 on your Windows PC
 ```bash
 git clone https://github.com/spiritofthenight/Soul-Killer/.git
 cd Soul-Killer
+ollama pull closex/neuraldaredevil-8b-abliterated:latest # or any other model you want
 python -m venv .venv
 .venv\scripts\activate
 pip install -r requirements.txt
