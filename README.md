@@ -1,6 +1,6 @@
 # Soul-Killer
 
-> Have you ever felt you need to talk to someone just like yourself?
+## <b>Have you ever felt you need to talk to someone just like yourself?</b>
 
 **You don't need to wait anymore!** Because project Soul Killer is designed for your need.
 
@@ -17,7 +17,7 @@ The idea:
 - And the model can talk to you with sound in real time
 - And all of this will happen **100% fully offline** on your computer!
 
-*The logic was to keep everything simple and 100% offline*
+*The Philosophy was to keep everything simple and 100% offline*
 
 ---
 
