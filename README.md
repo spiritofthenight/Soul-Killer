@@ -27,7 +27,7 @@ The idea:
 
 ### Installation
 
-First install Ollama client app version 0.11.3 on your Windows PC
+First install Ollama client app version 0.11.3 + on your Windows PC
 
 ```bash
 git clone https://github.com/spiritofthenight/Soul-Killer/.git
@@ -57,7 +57,7 @@ python SoulKiller.py
 - A powerful GPU with more than 8GB VRAM
 - 12 GB+ RAM
 - Windows 11 (Tested only on Windows)
-- Python 3.12
+- Python 3.12+
 
 ---
 
