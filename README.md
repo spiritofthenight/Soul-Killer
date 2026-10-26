@@ -4,7 +4,7 @@
 
 **You don't need to wait anymore!** Because project Soul Killer is designed for your need.
 
-![Soul-Killer](./banner.jpg)
+![Soul-Killer](./banner.jpeg)
 
 ---
 
