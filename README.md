@@ -4,7 +4,10 @@
 
 **You don't need to wait anymore!** Because project Soul Killer is designed for your need.
 
-![Soul-Killer](./banner.jpeg)
+<p align="left">
+  <img src="banner.jpeg" width="512" alt="Soul-Killer Banner">
+</p>
+<hr>
 
 ---
 
